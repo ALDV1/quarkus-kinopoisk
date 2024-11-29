@@ -29,6 +29,14 @@ public class MovieService implements IMovieService {
                         ));
     }
 
+    public void checksomepoints(){
+        System.out.println("checksomepoints");
+    }
+
+    public void anotherPoint(){
+        System.out.println("anotherPoint");
+    }
+
     @Override
     public List<Movie> findAll() {
         return repository.findAll();
